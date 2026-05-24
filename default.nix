@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> { config.allowUnfree = true; } }:
 
 let
-  version = "20260512222534";
+  version = "20260524150213";
 
   desktopItem = pkgs.makeDesktopItem {
     name = "accela";
@@ -19,7 +19,7 @@ pkgs.stdenv.mkDerivation rec {
 
   src = pkgs.fetchurl {
     url = "https://github.com/ciscosweater/enter-the-wired/releases/download/${version}/ACCELA-${version}-linux.tar.gz";
-    hash = "sha256-ID4snD0Dh31MZhowuJZ2Jf7rXoO9pRfpPuv30jDde4w=";
+    hash = "sha256-G6lHo8TQYMkGSVGVhHHiFm3JlwrO8iliKWvFOUI+UcY=";
   };
 
   nativeBuildInputs = [ pkgs.copyDesktopItems pkgs.makeWrapper ];

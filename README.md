@@ -12,7 +12,7 @@ curl -fsSL https://raw.githubusercontent.com/ciscosweater/enter-the-wired/main/e
 
 ## Linux ACCELA package
 
-ACCELA for Linux is distributed as `ACCELA-20260512222534-linux.tar.gz`.
+ACCELA for Linux is distributed as `ACCELA-20260524150213-linux.tar.gz`.
 
 The archive contains:
 
