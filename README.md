@@ -36,7 +36,7 @@ The `accela` installer downloads that tarball from the latest GitHub release, or
 curl -fsSL https://raw.githubusercontent.com/NanoChief771/enter-the-wired/main/fix-deps | bash
 ```
 
-## Repo
+## Repo (Original)
 
 https://github.com/ciscosweater/enter-the-wired
 
