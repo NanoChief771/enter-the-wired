@@ -1,4 +1,4 @@
-# Enter the Wired
+# Enter the Wired (Fork)
 
 > plug in. install. disappear.
 
@@ -7,7 +7,7 @@ Minimal Linux installer for ACCELA and SLSsteam.
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ciscosweater/enter-the-wired/main/enter-the-wired | bash
+curl -fsSL https://raw.githubusercontent.com/NanoChief771/enter-the-wired/main/enter-the-wired | bash
 ```
 
 ## Linux ACCELA package
