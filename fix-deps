@@ -107,7 +107,7 @@ install_packages() {
                 fi
                 ;;
             arch)
-                if sudo pacman -Sy --noconfirm "$pkg" 2>/dev/null; then
+                if sudo pacman -Sy --noconfirm --needed "$pkg" 2>/dev/null; then
                     echo -e "  ${GREEN}✓${NC} $pkg"
                 else
                     echo -e "  ${YELLOW}⊘${NC} $pkg (not found)"
