@@ -83,6 +83,7 @@ is_bazzite() {
 }
 
 # Install packages one by one, skipping unavailable ones
+# Added a fix to prevent repeating installing packages!
 install_packages() {
     local packages="$1"
     local family="$2"
