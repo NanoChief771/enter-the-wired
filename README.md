@@ -33,7 +33,7 @@ The `accela` installer downloads that tarball from the latest GitHub release, or
 ## Fix issues
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ciscosweater/enter-the-wired/main/fix-deps | bash
+curl -fsSL https://raw.githubusercontent.com/NanoChief771/enter-the-wired/main/fix-deps | bash
 ```
 
 ## Repo
